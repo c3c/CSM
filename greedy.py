@@ -21,8 +21,11 @@ physical_hosts = {"server1": 5391456, "server2": 4291455, "server3": 4200000}
 physical_hosts_working = physical_hosts.keys()
 
 ## {VM: {MEM: INT (KB)}}
-virtual_machines = {'win': {'mem': 4145152}, 'bigserv1': {'mem': 1048576}, 'bigserv2':{'mem': 2097152},
-                    'smallserv1': {'mem': 786432}, 'smallserv2': {'mem': 786432}}
+virtual_machines = {'win': {'mem': 4145152}, 'randomserver1gb': {'mem': 1048576}, 'randomserver2gb':{'mem': 2097152},
+                    'shuttleworth1': {'mem': 786432}, 'shuttleworth2': {'mem': 786432},
+                    'shuttleworth3': {'mem': 786432}, 'shuttleworth4': {'mem': 786432},
+                    'shuttleworth5': {'mem': 786432}, 'shuttleworth6': {'mem': 786432},
+                    'shuttleworth7': {'mem': 786432}, 'shuttleworth8': {'mem': 786432}}
 
 
 ## "119677106" == null pages
