@@ -106,7 +106,7 @@ def max_group(pair_dict, pair, pair_duplicates, server):
 
 print("Load memdumps from file...")
 
-for dirname, dirnames, filenames in os.walk('./tmp/memdumps/'):
+for dirname, dirnames, filenames in os.walk('./dumps/'):
     for file in filenames:
         if file.endswith('.dat'):
             memdumps.append(os.path.join(dirname, file))
