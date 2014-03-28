@@ -11,3 +11,5 @@ The specifics of the proposed algorithms can be found in the research paper.
   * __max_shared.mod__: a simplified CPLEX model that aims to maximize the number of _shared_ pages.
   * __greedy.py__: a Python implementation for the greedy fat-first approach.
   * __pairoverlap.py__: a Python implementation of the VM pair overlap model, which interfaces to the Gurobi solver.
+
+All models read in data files that are in fact dumps of data structures that hold hashed memory pages of virtual machines.
