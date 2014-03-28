@@ -5,7 +5,7 @@ Cluster Samepage Merging (CSM) is the optimization of VM placement in larger clu
 
 CSM is inspired by Kernel Samepage Merging (KSM), which is a technique used to determine duplicate memory blocks. This is especially of interest on hypervisors where multiple virtual machines may be able to share a large number of memory segments. The current use of KSM limits itself to improving the memory use on a per host base. In large environments it may be interesting to find a more optimal deployment of virtual machines, consolidating virtual machines with duplicate memory segments onto the same host.
 
-The specifics of the proposed algorithms can be found in the [research paper](csm.pdf).
+The specifics of the proposed algorithms can be found in the [research paper](csm.pdf?raw=true).
 
   * __max_sharing.mod__: a CPLEX model that aims to maximize the number of _sharing_ pages.
   * __max_shared.mod__: a simplified CPLEX model that aims to maximize the number of _shared_ pages.
