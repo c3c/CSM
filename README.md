@@ -51,7 +51,7 @@ This is  7.5 % improved.
 ```
 
 ```
-n$ python pairoverlap.py
+$ python pairoverlap.py
 Loading hashlist... (cached)
 Calculating overlap between tuples...
 Running MIP optimization...
