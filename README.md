@@ -13,3 +13,16 @@ The specifics of the proposed algorithms can be found in the [research paper](cs
   * __pairoverlap.py__: a Python implementation of the VM pair overlap model, which interfaces to the Gurobi solver.
 
 All models read in data files that are in fact dumps of data structures that hold hashed memory pages of virtual machines.
+
+```
+$ python gurobi.py
+Loading hashlist... (cached)
+Calculating overlap between tuples...
+Running MIP optimization...
+...
+Objective:  454686.0
+Phys #0 (6144M): 3, 4, 6, 7, 8, 9, a
+Phys #2 (4096M): b, d
+Phys #3 (4096M): 1, 2, 5, c
+
+```
